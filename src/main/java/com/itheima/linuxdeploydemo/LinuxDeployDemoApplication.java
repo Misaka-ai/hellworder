@@ -18,4 +18,9 @@ public class LinuxDeployDemoApplication {
         return "Hello world!";
     }
 
+    @GetMapping("/hello-60")
+    public String hello60() {
+        return "我最帅！";
+    }
+
 }
